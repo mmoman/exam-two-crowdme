@@ -178,6 +178,9 @@ a{
 .card{
     border-radius: 15px!important;
 }
+.card:hover{
+    box-shadow: 1px 0px 7px #1b1e21;
+}
 
 .img-box{
     position: relative;
