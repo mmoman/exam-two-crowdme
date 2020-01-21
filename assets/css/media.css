@@ -1,10 +1,66 @@
-/**Media Query**/
+/**Responsive Breakpoints**/
 
 /*====Mobile Device=====*/
-@media(min-width: 434px) and (max-width: 575px)  {
-    .btn-facilisis{
-        top: 78%;
-        right: 15px;
-        padding: 10px 40px;
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    body{
+        font-size: 60%;
+    }
+    section {
+        padding: 15px 0;
+    }
+    /*nav*/
+    .nav-link.js-scroll-trigger, .logo{
+        padding-left: 15px;
+    }
+    /*project*/
+    .properties, .buyers{
+        text-align: center;
+    }
+    .ci{
+        padding-bottom: 15px;
+    }
+    /*Blog/Card*/
+    #blog p{
+        line-height: 15px;
+    }
+    /*find More*/
+    #findMore{
+        padding: 0;
+    }
+
+}
+
+/*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {
+    body{
+        font-size: 70%;
+    }
+    section {
+        padding: 15px 0;
+    }
+    /***Blog/Card***/
+    #blog p{
+        line-height: 20px;
+    }
+    #blog span{
+        font-size: 70%!important;
     }
 }
+
+/*Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) {
+    body{
+        font-size: 80%;
+    }
+    section {
+        padding: 20px 0;
+    }
+    /***Blog/Card***/
+    #blog p{
+        line-height: 20px;
+    }
+}
+
+/*Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) {}

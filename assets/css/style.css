@@ -60,6 +60,10 @@ a{
     color: #ADADAD;
     text-transform: uppercase;
 }
+.fa.fa-th{
+    color: #0ebf00bf;
+    font-size: 1.4em;
+}
 
 /*=====Hero Section========*/
 .hero-section{
@@ -106,7 +110,8 @@ a{
     color: #515151;
 }
 .content-box{
-    padding: 3% 0;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
 #work p{
     color: #919191;
@@ -133,7 +138,7 @@ a{
     background-color: #F5F9EB;
 }
 .properties, .buyers{
-    padding: 40px;
+    padding: 4%;
 }
 .btn-project-one{
     background-color: #26A6D1;
@@ -148,7 +153,7 @@ a{
 }
 
 
-/*========Blog Section======*/
+/*========Blog/Card Section======*/
 #blog{
     background-color: #ffffff;
 }
@@ -167,11 +172,13 @@ a{
     padding: 15px 20px;
 }
 .card-deck{
-    padding: 50px 0;
+    padding-top: 4%;
+    padding-bottom: 4%;
 }
 .card{
     border-radius: 15px!important;
 }
+
 .img-box{
     position: relative;
 }
@@ -196,14 +203,13 @@ a{
     color: #A5A5A5;
 }
 .cb{
-    display: block;
     border-bottom: 1px solid #D6D6D6;
     width: 100%;
-    margin: 10px auto;
+    padding: 7px 0;
 }
 .card-body h6{
     color: #626262;
-    font-size: 1.2em;
+    font-size: .9em;
     font-weight: 600;
     padding: 10px 0;
 }
